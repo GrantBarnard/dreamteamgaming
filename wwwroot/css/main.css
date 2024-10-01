@@ -14392,6 +14392,11 @@ h5, .h5 {
   margin-right: 16px;
 }
 
+.z_99 {
+  position: relative;
+  z-index: 99;
+}
+
 @media (max-width: 768px) {
   .quick_buttons {
     overflow-x: scroll;
