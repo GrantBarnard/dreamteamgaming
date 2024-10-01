@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  .quick_buttons {
+    overflow-x: scroll;
+  }
+
+  button.search,
+  button.promotions,
+  #open_menu {
+    img {
+      max-width: 20px;
+    }
+  }
+
+  .quick_menu .quick_links {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: inline-block;
+  }
+
+  .quick_buttons {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .quick_buttons .quick_link {
+    margin-left: 16px;
+  }
+
+  .menu_tier_one.show {
+    left: 0;
+    overflow-y: scroll;
+  }
+
+  .menu_tier_two.show {
+    overflow-y: scroll;
+  }
+}
+
+.quick_menu .quick_link {
+  margin-right: 10px;
+}
+
+.quick_links::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .quick_links,
+  .quick_buttons {
+    overflow-x: auto;
+  }
+}

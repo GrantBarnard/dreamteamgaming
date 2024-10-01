@@ -1,0 +1,126 @@
+.button_reset {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.btn_white {
+  background: white;
+  color: $dark;
+  transition: 0.4s;
+  &:hover {
+    background: $yellow;
+    color: white;
+  }
+}
+
+.btn_yellow {
+  background: $yellow;
+  color: $dark;
+  transition: 0.4s;
+  &:hover {
+    background: white;
+    color: $dark;
+  }
+}
+
+.btn_primary {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 8px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn_primary_large {
+  font-weight: 700;
+  font-size: 17px;
+  padding: 12px 84px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn_primary_small {
+  font-weight: 700;
+  font-size: 7px;
+  padding: 8px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.4s;
+  &:hover {
+    background: $yellow;
+    color: white;
+  }
+}
+
+.btn_blue_gradient {
+  font-size: 12px;
+  font-family: $font-poppins;
+  font-weight: 700;
+  width: 100%;
+  padding: 16px;
+  background: rgb(0, 84, 183);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 84, 183, 1) 0%,
+    rgba(8, 163, 209, 1) 100%
+  );
+  text-align: center;
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  transition: 0.4s;
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 84, 183, 1) 0%,
+      rgba(8, 163, 209, 1) 100%
+    );
+  }
+}
+
+.btn_chat {
+  margin-top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  color: $dark;
+  border-radius: 16px;
+  background-color: #efefef;
+  text-align: center;
+  font-size: 12px;
+  font-family: $font-poppins;
+  font-weight: 700;
+  width: 100%;
+  padding: 16px;
+  position: relative;
+  transition: 0.4s;
+  &:hover {
+    background: #e1e1e1;
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -16px;
+  }
+}
+
+// Text Links
+
+.text_link_white {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 9px;
+  }
+}

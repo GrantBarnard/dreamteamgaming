@@ -1,0 +1,18 @@
+.border_grey {
+  width: 100%;
+  display: block;
+  height: 2px;
+  background: #efefef;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.no-scroll {
+  overflow: hidden; /* Prevent scrolling */
+}

@@ -1,0 +1,22 @@
+$enable-deprecation-warnings: false !global;
+@import "./assets/global/bs_overrides";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Global Imports
+@import "./assets/global/grid";
+@import "./assets/global/utils";
+@import "./assets/global/colors";
+@import "./assets/global/typo";
+@import "./assets/global/buttons";
+
+// Components
+@import "./assets/components/nav";
+@import "./assets/components/dropdown";
+
+// Page Specific Imports
+@import "./assets/pages/home";
+@import "./assets/pages/pages";
+@import "./assets/pages/posts";
+
+// Responsive
+@import "./assets/global/respond";

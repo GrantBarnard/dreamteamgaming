@@ -1,0 +1,21 @@
+$primary: #123055;
+$dark: #121627;
+$yellow: #ffd800;
+
+// Text Color Helpers
+
+.text-primary {
+  color: $primary;
+}
+
+.background-primary {
+  background: $primary;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.background-dark {
+  background: $dark;
+}
